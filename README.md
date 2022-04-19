@@ -1,1 +1,1 @@
-# Myntra-Clone
+# myntra-app

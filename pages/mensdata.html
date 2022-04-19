@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+<script>
+
+var mensdata=[
+
+    //shirts
+    {image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2503522/2019/5/11/0690d08e-829c-4876-82a5-98421d48d3791557550179671-Roadster-Men-Teal-Regular-Fit-Solid-Casual-Shirt-47815575501-1.jpg",
+
+ category: "Casual Shirts",
+ name: "Men Regular Casual Shirt",
+ price: 399,
+ strikedoffprice:999,
+ brandname:"ROADSTER",
+  rating:"4.1",
+
+  },
+
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10863030/2019/11/16/f2ef4d9d-38f0-4bb4-a9be-25b2840d2b7c1573883760238-Roadster-Men-Shirts-6711573883758350-1.jpg",
+
+category:"Casual Shirts", 
+name: "Men Casual Shirt",
+price: 849,
+strikedoffprice:1699,
+brandname:"ROADSTER",
+rating:"4.2",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8217987/2019/3/22/f85d8fad-4624-43ff-9ceb-b7da1bcfbf551553254987279-Roadster-Men-White-Regular-Fit-Solid-Casual-Shirt-4091553254-1.jpg",
+
+category: "Casual Shirts", 
+name: "Men White Shirt",
+price: 799,
+strikedoffprice:1999,
+brandname:"ROADSTER",
+rating:"4.3",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11008588/2020/3/13/2f8bdedb-8eab-4233-a70c-228904b4c8a51584095893666-Roadster-Men-Shirts-5411584095892114-2.jpg",
+
+category: "Casual Shirts", 
+name: "Men Black Shirt",
+price: 749,
+strikedoffprice:1499,
+brandname:"ROADSTER",
+rating:"4.3",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2220390/2017/12/5/11512476106363-Roadster-Men-Grey--Blue-Regular-Fit-Checked-Casual-Shirt-6861512476106171-1.jpg",
+
+category: "Casual Shirts", 
+name: "Men Grey Shirt",
+price: 1049,
+strikedoffprice:1499,
+brandname:"ROADSTER",
+rating:"4.4",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10187555/2019/9/26/4cc4ce57-09df-42ff-b5c3-092019d711ae1569502608755-WROGN-Men-Burgundy-Regular-Fit-Solid-Casual-Shirt-9071569502-1.jpg",
+
+category: "Casual Shirts", 
+name:" Men Fit Casual Shirt",
+price: 1319,
+strikedoffprice:3199,
+brandname:"WROGN",
+rating:"3.7",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11361290/2020/7/31/5f31131a-05aa-4e54-ae44-a0ee2713630b1596173114716-WROGN-Men-Blue-Slim-Fit-Solid-Casual-Shirt-With-Printed-Deta-1.jpg",
+
+category: "Casual Shirts", 
+name: "Men Casual Shirt",
+price: 1379,
+strikedoffprice:2299,
+brandname:"WROGN",
+rating:"4.3",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832572/2018/8/24/434ae3a1-c156-4b9d-862e-be38775972771535109119418-WROGN-Men-Red--Navy-Blue-Slim-Fit-Checked-Casual-Shirt-3891535109119109-1.jpg",
+
+category: "Casual Shirts", 
+name: "Men Red Shirt",
+price: 1319,
+strikedoffprice:2399,
+brandname:"WROGN",
+rating:"4.2",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12131920/2020/8/5/de19fc51-0b23-4918-809e-ba7e54ff0d4d1596608809415-WROGN-Men-Shirts-8801596608807405-1.jpg",
+
+category: "Casual Shirts", 
+name: "Men White Casual Shirt",
+price: 1209,
+strikedoffprice:1299,
+brandname:"WROGN",
+rating:"4.4",
+
+},
+
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2478263/2020/3/10/bfa8931b-c4b4-4788-a8c2-5c5abc2dcda51583836541684-WROGN-Men-Black--Grey-Slim-Fit-Checked-Casual-Shirt-21215838-1.jpg",
+
+category: "Casual Shirts", 
+name: "Men Black Casual Shirt",
+price: 1374,
+strikedoffprice:2499,
+brandname:"WROGN",
+rating:"4.5",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12422604/2020/9/15/cfa439be-ee11-48f9-be85-9decdf910ba81600173054402-WROGN-Men-Shirts-2041600173052546-1.jpg",
+
+category: "Casual Shirts", 
+name: "Men Cotton Shirt",
+price: 1429,
+strikedoffprice:2199,
+brandname:"WROGN",
+rating:"4.4",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832669/2018/8/24/efba132c-0215-47fe-8f79-63fe1f0b0e4e1535114456996-WROGN-Men-Shirts-9431535114455282-1.jpg",
+
+category: "Casual Shirts", 
+name: "Men Checked Shirt",
+price: 1319,
+strikedoffprice:2399,
+brandname:"WROGN",
+rating:"4.4",
+
+},
+    {image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11274548/2020/8/4/bbc5a1dd-ba40-43b7-8a2f-de7d25fbd38d1596533902419-Roadster-Men-Jeans-9271596533900219-1.jpg",
+     category:"Jeans",
+     name:"Men Skinny Fit Jeans",
+     price:719,
+     strikedoffprice:1799,
+     brandname:"ADIDAS",
+     rating:"3.7"},
+
+     {image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12303660/2020/10/14/8d60b6a0-b6f4-4e84-9ca2-3411ac1092141602650748782-Roadster-Men-Jeans-1821602650746598-1.jpg",
+     category:"Jeans",
+     name:"Men  Fit Mid-Rise Jeans",
+     price:799,
+     strikedoffprice:1999,
+     brandname:"ADIDAS",
+     rating:"4.2"},
+
+     {image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11274708/2020/10/15/e00f58b6-43f7-4991-b773-b1068f7d252e1602739760233-Roadster-Men-Jeans-1381602739757849-1.jpg",
+     category:"Jeans",
+     name:"Men Skinny Fit Jeans",
+     price:679,
+     strikedoffprice:1699,
+     brandname:"ADIDAS",
+     rating:"4"},
+
+     {image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1729344/2020/3/2/84a03c78-f8e5-4c20-942c-8ea6e4a9ed641583150812330-WROGN-Men-Black-Slim-Fit-Mid-Rise-Clean-Look-Stretchable-Jea-1.jpg",
+     category:"Jeans",
+     name:"Men Slim Fit Jeans",
+     price:1319,
+     strikedoffprice:2399,
+     brandname:"ADIDAS",
+     rating:"4.2"},
+
+     {image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/3880929/2018/3/27/11522150779575-HIGHLANDER-Men-Blue-Tapered-Fit-Mid-Rise-Clean-Look-Stretchable-Jeans-5031522150779414-1.jpg",
+     category:"Jeans",
+     name:"Men Skinny Fit Jeans",
+     price:569,
+     strikedoffprice:1899,
+     brandname:"ADIDAS",
+     rating:"4.3"},
+
+     //Nike
+
+     {image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15808818/2021/11/18/9ad30da7-181f-4757-854b-9ae4a4c34cb21637234663284-Flying-Machine-Men-Blue-Skinny-Fit-Low-Rise-Heavy-Fade-Stret-1.jpg",
+     category:"Jeans",
+     name:"Men Skinny Fit Jeans",
+     price:1439,
+     strikedoffprice:2399,
+     brandname:"NIKE",
+     rating:"4.8"},
+
+     {image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1729344/2020/3/2/84a03c78-f8e5-4c20-942c-8ea6e4a9ed641583150812330-WROGN-Men-Black-Slim-Fit-Mid-Rise-Clean-Look-Stretchable-Jea-1.jpg",
+     category:"Jeans",
+     name:"Men Skinny Fit Jeans",
+     price:1249,
+     strikedoffprice:2199,
+     brandname:"NIKE",
+     rating:"4.4"},
+
+     {image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2948543/2018/3/30/11522394099790-HIGHLANDER-Men-Black-Slim-Fit-Mid-Rise-Clean-Look-Stretchable-Jeans-5171522394099590-1.jpg",
+     category:"Jeans",
+     name:"Men Stretchable Jeans",
+     price:1319,
+     strikedoffprice:2399,
+     brandname:"NIKE",
+     rating:"4.5"},
+    
+     {image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/23/2abce20e-381a-4130-be2c-f62d877153791619160693538-1.jpg",
+     category:"Jeans",
+     name:"Men Regular Fit Jeans",
+     price:3599,
+     strikedoffprice:5999,
+     brandname:"NIKE",
+     rating:"4.6"},
+
+     {image_link:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/9/5de8508e-08ad-48df-a7cb-1060bca8ffa21617969562071-1.jpg",
+     category:"Jeans",
+     name:"Men Slim Fit Jeans",
+     price:3199,
+     strikedoffprice:4599,
+     brandname:"NIKE",
+     rating:"4.3"},
+
+     //shoes
+     {
+      image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14782490/2021/8/10/c0aab67d-58cd-49cf-aeb4-b65e4d81f3f51628575865502-ADIDAS-Men-Sports-Shoes-4691628575865048-1.jpg",
+      category:"Shoes",
+      name: "Men Running Shoes",
+price:4500,
+strikedoffprice:6000,
+brandname:"ADIDAS",
+rating : "4",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14782228/2021/10/22/c24aa90e-ccc6-4460-901f-a1c22a3fff761634902976557-ADIDAS-Men-Navy-Blue-Street-Rager-Running-Shoes-743163490297-1.jpg",
+category:"Shoes",
+name: "Men coreX1 Running Shoes",
+price:3900,
+strikedoffprice:5500,
+brandname:"ADIDAS",
+rating : "4",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14782594/2021/11/9/49bfce1a-824b-4d06-8735-300fe57d6ced1636457807156-ADIDAS-Men-Sports-Shoes-4521636457806602-1.jpg",
+category:"Shoes",
+name: "Men Focus8 Running Shoes",
+price:4999,
+strikedoffprice:6999,
+brandname:"ADIDAS",
+rating : "4.1",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14782278/2021/11/9/5f13c2fd-add8-4985-8351-b2a52ee093b11636449188225-ADIDAS-Men-Sports-Shoes-941636449187753-1.jpg",
+category:"Shoes",
+name: "Men Walking Shoes",
+price:4500,
+strikedoffprice:5500,
+brandname:"ADIDAS",
+rating : "3.9",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14782156/2021/11/16/ded26cac-3240-4f0d-bebe-b8e1d5c1894a1637042127976-ADIDAS-Men-Sports-Shoes-6821637042127581-1.jpg",
+category:"Shoes",
+name: "Men MetaFlash Shoes",
+price:4200,
+strikedoffprice:5500,
+brandname:"ADIDAS",
+rating : "4",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15384948/2022/1/10/6054f3b8-53f3-4b4d-938b-23d9a7df235d1641819191974-Nike-Free-RN-2018-Mens-Running-Shoes-6041641819191597-1.jpg",
+category:"Shoes",
+name: "Men Walking Shoes",
+price:4500,
+strikedoffprice:5700,
+brandname:"NIKE",
+rating : "3.7",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15384860/2022/1/10/26e89b6e-cadb-4d43-982d-c600ca62938e1641811903228-Nike-MC-Trainer-Mens-Training-Shoes-1191641811902841-1.jpg",
+category:"Shoes",
+name: "Men Running Shoes",
+price:4999,
+strikedoffprice:6000,
+brandname:"NIKE",
+rating : "4",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16045882/2021/12/15/54b42f40-4a8b-4219-8f48-21a2eff5d15a1639562231989-NikeCourt-Vapor-Lite-Mens-Hard-Court-Tennis-Shoes-2371639562-1.jpg",
+category:"shoes",
+name: "Men Running Shoes",
+price:5096,
+strikedoffprice:6795,
+brandname:"NIKE",
+rating : "4.1",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15384918/2022/1/10/08f62dbd-7a07-47d6-9a64-d08b36d75bd21641811907824-Nike-Precision-5-FlyEase-Basketball-Shoes-7371641811907459-1.jpg",
+category:"Shoes",
+name: "Men Comfort Shoes",
+price:4396,
+strikedoffprice:5495,
+brandname:"NIKE",
+rating : "4",
+
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15384964/2021/11/10/c663ec5e-09cd-4542-a520-c9a4c7ceaa9f1636538087870-Nike-Men-Black-Leather-Court-Lite-2-Tennis-Shoes-86163653808-1.jpg",
+category:"Shoes",
+name: "Men Running Shoes",
+price:3996,
+strikedoffprice:4995,
+brandname:"NIKE",
+rating : "3.9",
+
+},
+
+//jacket
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14789756/2021/9/17/4affc9a2-819b-4ca0-8e9d-b89ce88c59381631868639389-ADIDAS-Men-Tshirts-7951631868638243-1.jpg",
+category: "Jacket",
+name: "Cold.RDY Training Hoodie",
+price: 6299,
+strikedoffprice:8999 ,
+brandname:"ADIDAS",
+rating:"4"
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14789776/2021/8/9/4d258a49-be59-48d1-aab3-edeadad0b5b31628510035976-ADIDAS-Men-Tshirts-2751628510035315-1.jpg",
+category: "Jacket",
+name: "Aeromotion Hooded Jacket",
+price: 3179,
+strikedoffprice:5299,
+brandname:"ADIDAS",
+rating:"4.2"
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14905088/2021/8/9/b73c5134-0523-4c39-9a17-f4eef096b3271628509212883-Nike-Repel-Miler-Mens-Running-Jacket-7841628509212123-1.jpg",
+category: "Jacket",
+name: "Repel Running Jacket",
+price: 3286,
+strikedoffprice:4695,
+brandname:"NIKE",
+rating:"3.7"
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16092732/2021/12/11/4962c407-d9cc-4998-a703-e921b3ba34c81639216950801-Nike-Dri-FIT-Mens-Woven-Training-Jacket-3731639216950255-1.jpg",
+category: "Jacket",
+name: "Open Front Jacket",
+price: 2786,
+strikedoffprice:3495,
+brandname:"NIKE",
+rating:"2.6"
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14905050/2021/11/12/efeaf45e-8d02-42e2-ab55-8a7d174ead071636718877513-Nike-Men-Blue-Bomber-Jacket-8791636718876793-1.jpg",
+category: "Jacket",
+name: "Bomber Jacket",
+price: 2791,
+strikedoffprice:4295,
+brandname:"NIKE",
+rating:"4.8"
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14643390/2021/7/14/358acc9a-3517-4638-8e44-c4872a7172f11626265371465-Nike-Sportswear-Mens-Unlined-Core-Track-Jacket-2491626265370-1.jpg",
+category: "Jacket",
+name: "Track Sporty Jacket",
+price: 2796,
+strikedoffprice:3995,
+brandname:"NIKE",
+rating:"3.5"
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/12944874/2020/12/1/542a5f52-cad2-49d2-89a0-14b4464465b91606798689065-ADIDAS-Men-Black-Solid-Tech-Fabric-Mix-Hoodie-Jacket-9451606-1.jpg",
+category: "Jacket",
+name: "Hoodie Jacket",
+price: 3599,
+strikedoffprice:5999,
+brandname:"ADIDAS",
+rating:"4.1"
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14746194/2021/8/10/fe48460c-799b-4be6-b3b3-b2fde7be13151628594928210-ADIDAS-Men-Purple-EveryHike-Full-Zip-Solid-Hiking-Jacket-631-1.jpg",
+category: "Jacket",
+name: "Hiking Jacket",
+price: 4599,
+strikedoffprice:7999,
+brandname:"ADIDAS",
+rating:"2.8"
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15629670/2021/12/24/d2e577b0-9d95-4436-808d-b025b51b841a1640335786236-Nike-Men-Blue-Brand-Logo-Printed-Standard-Fit-AIR-PK-Sustain-1.jpg",
+category: "Jacket",
+name: "Air PK Jacket",
+price: 3496,
+strikedoffprice:4995,
+brandname:"NIKE",
+rating:"4"
+},
+{
+image_link:"https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14789752/2021/9/17/75198009-d334-47c7-a0c1-4ee4dc523bc51631868631345-ADIDAS-Men-Tshirts-6811631868630783-1.jpg",
+category: "Jacket",
+name: "Woven Track Jacket",
+price: 3709,
+strikedoffprice:5299,
+brandname:"ADIDAS",
+rating:"3.9"
+},
+                ]
+
+
+                var M=JSON.stringify(mensdata);
+                localStorage.setItem("mensData",M);
+                console.log(M)
+                </script>
+

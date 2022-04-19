@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-256/myntra-2709168-2249158.png" type="image/gif">
+    <link rel="stylesheet" href="men.css">
+    <link rel="stylesheet" href="navbar_.css">
+    <script src="https://kit.fontawesome.com/629044acfa.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+      <div id="headbar_vam">
+        <a id="toggle_button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+  
+        </a>
+          <div id="boxl_vam">
+           
+            <a href="landing_page.html">
+              <img
+                src="https://cdn.iconscout.com/icon/free/png-256/myntra-2709168-2249158.png"
+              />
+            </a>
+            <div class="men_vam">
+              <a onclick="window.location.href='men.html'">MEN</a> 
+              <div class="dropdown-content_men_vam">
+                <hr />
+                <div class="ddm_men_vam">
+                  <div>
+                      <h6>TopWear</h6>
+                      <p onclick="window.location.href='men_tshirt.html'">T-Shirts</p>
+                      <p onclick="window.location.href='men_jacket.html'">Jackets</p>
+                    </div>
+                    <div>
+                      <h6>BottomWear</h6>
+                      <p onclick="window.location.href='men_jeans.html'">Jeans</p>
+                      <p onclick="window.location.href='men_shoes.html'">Shoes</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="men_vam">
+                <div onclick="window.location.href='women.html'">WOMEN</div>
+                <div class="dropdown-content_men_vam">
+                  <hr />
+                  <div class="ddm_men_vam">
+                    <div>
+                      <h6>TopWear</h6>
+                      <p onclick="window.location.href='women_kurta.html'">Kurtas</p>
+                      <p onclick="window.location.href='women_jacket.html'">Jackets</p>
+                    </div>
+                    <div>
+                      <h6>BottomWear</h6>
+                      <p onclick="window.location.href='women_jeans.html'">Jeans</p>
+                      <p onclick="window.location.href='women_shoes.html'">Shoes</p>
+                    </div>
+                    </div>
+              </div>
+            </div>
+            <div>KIDS</div>
+            <div>HOME & LIVING</div>
+            <div>BEAUTY</div>
+            <div>STUDIO<sup>New</sup></div>
+          </div>
+  
+          <div id="boxm_vam">
+            <input type="text" placeholder="Search for products brand and more" />
+          </div>
+          <div id="boxr_vam">
+            <div class="profile_vam">
+              <i class="fas fa-user"></i>
+              <p>Profile</p>
+              <div class="dropdown-content_vam">
+                <hr />
+                <div class="dc_b1_vam">
+                  <p id="hello_vam"></p>
+                  <hr />
+                  <p>Welcome</p>
+                  <p>To access account and manage order</p>
+                  <button onclick="window.location.href='signup.html'">SIGN UP</a>
+                  <button onclick="window.location.href='login.html'">LOG IN</a>
+                </div>
+                <hr />
+                <div class="dc_b2_vam">
+                  <p onclick="window.location.href='myOrders.html'">My Orders</p>
+                  <p onclick="window.location.href='wishlist.html'">Wishlist</p>
+                  <p>Gift Cards</p>
+                  <p>Coupons</p>
+                </div>
+              </div>
+            </div>
+            <div class="wl_vam">
+              <i
+                onclick="window.location.href='wishlist.html'"
+                class="fas fa-heart"
+              ></i>
+              <p>Wishlist</p>
+            </div>
+            <div class="crt_vam" onclick="window.location.href='cart.html'">
+              <i class="fas fa-shopping-cart"></i>
+              <p>Bag</p>
+            </div>
+          </div>
+        </div>
+   </header>
+      <div id="top">
+          <p>Home / Clothing / Women Clothing</p>
+  
+          <div id="sorting">
+          <h3 >FILTERS</h3>
+         
+           <select id="priceSort" onchange="handlePriceSort()">
+              <option value="">Sort By : <h4>Recommended</h4></option>
+              <option value="high">High to low</option>
+              <option value="low">Low to high</option>
+            </select>
+          </div>  
+      </div>
+      <hr id = "tophr">
+      <div id="bottom">
+          <div id="left">
+  
+            
+              <!-- <h4>CATEGORIES</h4> -->
+              <!-- <br>
+             
+              <input type="checkbox" class="categoryS" value="Shoes" onclick="categorys()">Shoes</input><br>
+              <input type="checkbox" class="categoryJ" value="Jacket" onclick="categoryJ()">Jacket</input><br>
+              <input type="checkbox" class="categoryje" value="Jeans" onclick="categoryje()">Jeans</input><br>
+              <input type="checkbox" class="categoryC" value="Kurtas & Suits" onclick="categoryC()">Kurtas & Suits</input><br>
+               
+             
+  
+                <hr id="bottomhr"> -->
+  
+                <h3 id="brandh3">Brand</h3>
+                <br>
+  
+                <input type="checkbox" id="filterbrandA" value="ADIDAS" onclick="filterbrandA()">Adidas</input><br>
+                <input type="checkbox" id="filterbrandN" value="NIKE" onclick="filterbrandN()">Nike</input><br>
+                <!-- <input type="checkbox" id="filterbrandR" value="LIBAS" onclick="filterbrandR()">Libas</input><br>
+                <input type="checkbox" id="filterbrandW" value="ANOUK" onclick="filterbrandW()">Anouk</input><br>
+                 -->
+            
+          </div>
+          <div id="containermen">
+  
+          </div>
+      </div>
+</body>
+</html>
+<script>
+     var womensData = JSON.parse(localStorage.getItem("Women_Data"))
+     var womensData_jacket=womensData.filter(function(elem){
+        return elem.category=="Jacket";
+    })
+
+    var cart =JSON.parse(localStorage.getItem("CartItems"))||[]
+
+    displayData(womensData_jacket);
+
+    var wishlist =JSON.parse(localStorage.getItem("WishlistItems"))||[]
+
+    displayData(womensData_jacket);
+
+    
+
+function handlePriceSort(){
+   var selected = document.querySelector("#priceSort").value
+   console.log(selected)
+   if(selected == "high"){
+     //decending
+     womensData.sort(function(a,b){
+       return b.price-a.price
+     })
+     
+   }
+   if(selected == "low"){
+     //accending
+     womensData_jacket.sort(function(a,b){
+       return a.price-b.price;
+     })
+   }
+   // console.log(mensdata)
+   displayData(womensData_jacket);
+
+ }
+
+ function filterbrandA(){
+   var selected = document.querySelector("#filterbrandA").value
+   console.log(selected);
+
+   var filtername = womensData_jacket.filter(function(elem){
+     return elem.brandname == selected;
+   })
+   console.log(filtername)
+   displayData(filtername)
+ }
+
+ function filterbrandN(){
+   var selected = document.querySelector("#filterbrandN").value
+   console.log(selected);
+
+   var filtername = womensData_jacket.filter(function(elem){
+     return elem.brandname == selected;
+   })
+   console.log(filtername)
+   displayData(filtername)
+ }
+
+ function filterbrandW(){
+   var selected = document.querySelector("#filterbrandW").value
+   console.log(selected);
+
+   var filtername = womensData_jacket.filter(function(elem){
+     return elem.brandname == selected;
+   })
+   console.log(filtername)
+   displayData(filtername)
+ }
+
+ function filterbrandR(){
+   var selected = document.querySelector("#filterbrandR").value
+   console.log(selected);
+
+   var filtername = womensData_jacket.filter(function(elem){
+     return elem.brandname == selected;
+   })
+   console.log(filtername)
+   displayData(filtername)
+ }
+
+ displayData(womensData_jacket)
+
+
+               function displayData(womensData_jacket){
+   document.querySelector("#containermen").innerHTML=""
+
+   womensData_jacket.map(function (data){
+       var div = document.createElement("div");
+
+       //create image
+       var img = document.createElement('img');
+       img.setAttribute("src",data.image_link);
+
+       //name creation
+       var name = document.createElement("p");
+       name.textContent = data.name;
+
+       var divr = document.createElement('div')
+       divr.setAttribute("id","divr")
+
+       var rating = document.createElement('h4')
+       rating.textContent = data.rating
+
+       var star = document.createElement('h3')
+       star.textContent = " ★"
+       star.style.color="rgb(20,149,143)"
+
+       divr.append(rating,star)
+
+       var brand =document.createElement("h4");
+       brand.textContent = data.brandname;
+
+       //price  creation;
+       var div2 = document.createElement("div");
+       div2.setAttribute("id","flex")
+ 
+
+       var p1=document.createElement("p")
+       p1.style.fontWeight="700"
+       p1.textContent=`Rs.${data.price}`
+
+       var p2=document.createElement("p")
+       p2.textContent=`Rs.${data.strikedoffprice}`
+       p2.setAttribute("id","strikedoff")
+
+       var p3 = document.createElement("p")
+       p3.setAttribute("id","percentoff")
+       p3.textContent = "( "+(Math.floor((data.strikedoffprice-data.price)/(data.strikedoffprice)*100))+"%off)"
+
+       div2.append(p1,p2,p3)
+
+       
+
+     
+       // wishlist
+       var btn1 = document.createElement("button")
+       btn1.setAttribute("id","menwishlist") 
+       btn1.textContent = " ♡ WISHLIST"
+
+       btn1.addEventListener("click",function(){
+         addtowishlist(data);
+       });
+
+
+       //  add to bag
+       var btn = document.createElement("button")
+       btn.setAttribute("id","bagmen")
+       btn.textContent = "MOVE TO BAG";
+
+
+       btn.addEventListener("click",function(){
+         addtocart(data);
+       });
+
+       
+
+       //append
+       div.append(img,divr,btn1,brand,name,div2,btn)
+
+
+       document.querySelector("#containermen").append(div)
+   })
+ }
+
+ function addtocart(data){
+     console.log(data, "data");
+     cart.push(data);
+     localStorage.setItem("CartItems",JSON.stringify(cart))
+     alert("added successfully");
+
+   }
+
+   function addtowishlist(data){
+    //  console.log(data, "data");
+     wishlist.push(data);
+     localStorage.setItem("WishlistItems",JSON.stringify(wishlist))
+     alert("added to wishlist");
+
+   }
+
+   var user_name = localStorage.getItem("User_name");
+  document.querySelector("#hello_vam").textContent = "Hello " + user_name;
+  var toggle_button=document.querySelector("#toggle_button");
+    // toggle_button.addEventListener("click",give_menu());
+    var show=document.querySelector("#boxl_vam");
+    var head=document.querySelector("#headbar_vam")
+    // function give_menu(){
+    //   // 
+    //   console.log('click');
+    // }
+      toggle_button.addEventListener("click",() =>{
+        show.classList.toggle('active');
+        head.classList.toggle('active');
+        console.log("kk")
+      })
+ 
+</script>
