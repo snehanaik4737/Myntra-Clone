@@ -681,7 +681,14 @@
     </div>
   </body>
 </html>
+<script type="module">
+  import {women} from "./Women_Data.html"
+  import {men} from "./mensdata.html"
+  women();
+  men();
+</script>
 <script>
+
   var user_name = localStorage.getItem("User_name")||"";
   document.querySelector("#hello_vam").textContent = "Hello " + user_name;
   
@@ -702,5 +709,7 @@
     event.classList.toggle("hide");
     event.classList.toggle("show");
   }
+   
 </script>
+
 
