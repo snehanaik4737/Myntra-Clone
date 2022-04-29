@@ -155,6 +155,12 @@
       </div>
 </body>
 </html>
+<script type="module">
+  import {women} from "./Women_Data.html"
+  import {men} from "./mensdata.html"
+  women();
+  men();
+</script>
 <script>
      var womensData = JSON.parse(localStorage.getItem("Women_Data"))
     console.log(womensData);
